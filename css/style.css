@@ -1,0 +1,71 @@
+.l-container {
+    width: 90%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.l-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #eee;
+}
+
+
+.l-header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #444;
+    color: #fff;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-list {
+    display: flex;
+    font-weight: bold;
+}
+
+.header-item:not(:first-child) {
+    margin-left: 24px;
+}
+
+/* kv */
+.top-kv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    height: 100vh;
+}
+
+.top-kv-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.about-kv {
+    text-align: center;
+    background: #eee;
+}
+
+.about-kv-title {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 2em;
+}
+
+/* text */
+
+.text {
+    margin-top: 32px;
+}
